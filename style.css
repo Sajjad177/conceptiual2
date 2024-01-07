@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400&display=swap');
+/* praimary saection start  */
+/* primary section a ja thakbe ta sob jaigai lagbe  */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+}
+.container,.last-banner {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0% auto;
+}
+p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+button{
+    border-radius: 8px;
+    background-color:  #E55473;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 30px;
+}
+.section-heading{
+    max-width: 500px;
+    align-items: center;
+    margin: 20px auto;
+}
+.section-heading h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+/* banner style */
+header, .last-banner{ 
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .banner-text *{
+    margin-bottom: 20px;
+    max-width: 525px;
+}
+.banner .banner-text h1{
+    color: #272727;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner .banner-img img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* banner end */
+/* main section  start */
+
+#featured{
+    padding: 100px 0px;
+}
+.section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+.section-content .flower .flower-img {
+    /* background-color: #E55473; */
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 15px 0px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+.section-content .flower .flower-img img{
+    width: 100%;
+}
+.section-content .flower .pink{
+    background-color:rgba(167, 33, 98, 0.15);;
+}
+.section-content .flower .blue{
+    background-color: rgba(5, 151, 160, 0.15);;
+}
+.section-content .flower .green{
+    background-color: rgba(71, 125, 17, 0.15);;
+}
+.section-content .flower p{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 30px;
+    text-decoration-line: underline;
+}
+
+/* bottom section */
+
+.bottom{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 350px;
+    text-align: center;
+    max-width: 725px;
+}
+.bottom .container-image-section p{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 0% auto;
+}
+.last-banner{
+    /* background-color: rgba(229, 84, 115, 0.10); */
+    display: flex;
+    justify-content: space-around;
+    margin: 150px auto;
+    padding: 100px 0;
+    
+}
+.last-heading{
+    text-align: center;
+    width: 75%;
+    max-width: 550px;
+}
+.last-banner .last-heading h2 span{
+    color: #E55473;
+}
+.last-banner .last-heading *{    /* er vetor ja thakbe tar bottom 24px down hobe */
+    margin-bottom: 24px; 
+}
+.btn{
+    align-items: center;
+}
+.last-banner.banner-img{
+    max-width: 318px;
+}
+.image-section{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+/* end */
+/* newslatter style */
+
+.newslatter{
+    margin: 128px 0;
+}
+.newslatter-main{
+    background-image: url('Flowerasset/Rectangle 9.png');
+    padding: 122px 0;
+}
+.newslatter form{
+    max-width: 800px;
+    margin: 5px auto;
+    display: flex;
+    gap: 10px;
+}
+.newslatter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 5px;
+    background-color:  #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+}
